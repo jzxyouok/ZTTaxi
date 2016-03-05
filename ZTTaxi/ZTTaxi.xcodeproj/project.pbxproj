@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BC900011C8A83A300F07576 /* ZTLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900001C8A83A300F07576 /* ZTLogin.swift */; };
+		7BC900031C8A83C900F07576 /* ZTRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900021C8A83C900F07576 /* ZTRegister.swift */; };
+		7BC900051C8A83E700F07576 /* ZTGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900041C8A83E700F07576 /* ZTGetCars.swift */; };
+		7BC900071C8A843300F07576 /* ZTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900061C8A843300F07576 /* ZTBaseViewController.swift */; };
+		7BC9000A1C8A864800F07576 /* ZTBasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900091C8A864800F07576 /* ZTBasePage.swift */; };
+		7BC9000C1C8A866200F07576 /* ZTLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9000B1C8A866200F07576 /* ZTLoginPage.swift */; };
+		7BC9000E1C8A868000F07576 /* ZTGuidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9000D1C8A868000F07576 /* ZTGuidePage.swift */; };
+		7BC900101C8A86A100F07576 /* ZTRegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9000F1C8A86A100F07576 /* ZTRegisterPage.swift */; };
+		7BC900121C8A872A00F07576 /* ZTBindPayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900111C8A872A00F07576 /* ZTBindPayPage.swift */; };
 		7BC9FFBE1C8A789C00F07576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFBD1C8A789C00F07576 /* AppDelegate.swift */; };
 		7BC9FFC01C8A789C00F07576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFBF1C8A789C00F07576 /* ViewController.swift */; };
 		7BC9FFC31C8A789C00F07576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9FFC11C8A789C00F07576 /* Main.storyboard */; };
@@ -14,6 +23,9 @@
 		7BC9FFC81C8A789C00F07576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9FFC61C8A789C00F07576 /* LaunchScreen.storyboard */; };
 		7BC9FFD31C8A789C00F07576 /* ZTTaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFD21C8A789C00F07576 /* ZTTaxiTests.swift */; };
 		7BC9FFDE1C8A789C00F07576 /* ZTTaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFDD1C8A789C00F07576 /* ZTTaxiUITests.swift */; };
+		7BC9FFFB1C8A82EE00F07576 /* ZTBaseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFFA1C8A82EE00F07576 /* ZTBaseInfo.swift */; };
+		7BC9FFFD1C8A832E00F07576 /* ZTUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFFC1C8A832E00F07576 /* ZTUserInfo.swift */; };
+		7BC9FFFF1C8A836900F07576 /* ZTOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFFE1C8A836900F07576 /* ZTOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BC900001C8A83A300F07576 /* ZTLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTLogin.swift; sourceTree = "<group>"; };
+		7BC900021C8A83C900F07576 /* ZTRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTRegister.swift; sourceTree = "<group>"; };
+		7BC900041C8A83E700F07576 /* ZTGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTGetCars.swift; sourceTree = "<group>"; };
+		7BC900061C8A843300F07576 /* ZTBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTBaseViewController.swift; sourceTree = "<group>"; };
+		7BC900091C8A864800F07576 /* ZTBasePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTBasePage.swift; sourceTree = "<group>"; };
+		7BC9000B1C8A866200F07576 /* ZTLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTLoginPage.swift; sourceTree = "<group>"; };
+		7BC9000D1C8A868000F07576 /* ZTGuidePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTGuidePage.swift; sourceTree = "<group>"; };
+		7BC9000F1C8A86A100F07576 /* ZTRegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTRegisterPage.swift; sourceTree = "<group>"; };
+		7BC900111C8A872A00F07576 /* ZTBindPayPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTBindPayPage.swift; sourceTree = "<group>"; };
 		7BC9FFBA1C8A789C00F07576 /* ZTTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC9FFBD1C8A789C00F07576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BC9FFBF1C8A789C00F07576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,9 @@
 		7BC9FFD91C8A789C00F07576 /* ZTTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC9FFDD1C8A789C00F07576 /* ZTTaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTTaxiUITests.swift; sourceTree = "<group>"; };
 		7BC9FFDF1C8A789C00F07576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC9FFFA1C8A82EE00F07576 /* ZTBaseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTBaseInfo.swift; sourceTree = "<group>"; };
+		7BC9FFFC1C8A832E00F07576 /* ZTUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTUserInfo.swift; sourceTree = "<group>"; };
+		7BC9FFFE1C8A836900F07576 /* ZTOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BC900081C8A85F500F07576 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				7BC900091C8A864800F07576 /* ZTBasePage.swift */,
+				7BC9000B1C8A866200F07576 /* ZTLoginPage.swift */,
+				7BC9000F1C8A86A100F07576 /* ZTRegisterPage.swift */,
+				7BC9000D1C8A868000F07576 /* ZTGuidePage.swift */,
+				7BC900111C8A872A00F07576 /* ZTBindPayPage.swift */,
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
 		7BC9FFB11C8A789C00F07576 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +133,18 @@
 		7BC9FFBC1C8A789C00F07576 /* ZTTaxi */ = {
 			isa = PBXGroup;
 			children = (
+				7BC9FFF71C8A824E00F07576 /* Frameworks */,
+				7BC9FFF21C8A810E00F07576 /* Define */,
+				7BC9FFF11C8A80FF00F07576 /* ThirdSDK */,
+				7BC9FFF01C8A80E600F07576 /* Utility */,
+				7BC9FFEF1C8A80D600F07576 /* DB */,
+				7BC9FFEE1C8A80CD00F07576 /* View */,
+				7BC9FFED1C8A80BD00F07576 /* Operation */,
+				7BC9FFEC1C8A80A800F07576 /* Model */,
+				7BC9FFEB1C8A809B00F07576 /* Global */,
 				7BC9FFBD1C8A789C00F07576 /* AppDelegate.swift */,
 				7BC9FFBF1C8A789C00F07576 /* ViewController.swift */,
-				7BC9FFC11C8A789C00F07576 /* Main.storyboard */,
-				7BC9FFC41C8A789C00F07576 /* Assets.xcassets */,
-				7BC9FFC61C8A789C00F07576 /* LaunchScreen.storyboard */,
-				7BC9FFC91C8A789C00F07576 /* Info.plist */,
+				7BC9FFF31C8A813700F07576 /* Resources */,
 			);
 			path = ZTTaxi;
 			sourceTree = "<group>";
@@ -123,6 +165,112 @@
 				7BC9FFDF1C8A789C00F07576 /* Info.plist */,
 			);
 			path = ZTTaxiUITests;
+			sourceTree = "<group>";
+		};
+		7BC9FFEB1C8A809B00F07576 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		7BC9FFEC1C8A80A800F07576 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9FFFA1C8A82EE00F07576 /* ZTBaseInfo.swift */,
+				7BC9FFFC1C8A832E00F07576 /* ZTUserInfo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7BC9FFED1C8A80BD00F07576 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9FFFE1C8A836900F07576 /* ZTOperation.swift */,
+				7BC900021C8A83C900F07576 /* ZTRegister.swift */,
+				7BC900041C8A83E700F07576 /* ZTGetCars.swift */,
+				7BC900001C8A83A300F07576 /* ZTLogin.swift */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		7BC9FFEE1C8A80CD00F07576 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BC900061C8A843300F07576 /* ZTBaseViewController.swift */,
+				7BC900081C8A85F500F07576 /* Page */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7BC9FFEF1C8A80D600F07576 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		7BC9FFF01C8A80E600F07576 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		7BC9FFF11C8A80FF00F07576 /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		7BC9FFF21C8A810E00F07576 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		7BC9FFF31C8A813700F07576 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9FFF61C8A81B200F07576 /* Config */,
+				7BC9FFF51C8A81A300F07576 /* images */,
+				7BC9FFF41C8A819D00F07576 /* Xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7BC9FFF41C8A819D00F07576 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9FFC11C8A789C00F07576 /* Main.storyboard */,
+				7BC9FFC61C8A789C00F07576 /* LaunchScreen.storyboard */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		7BC9FFF51C8A81A300F07576 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9FFC41C8A789C00F07576 /* Assets.xcassets */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		7BC9FFF61C8A81B200F07576 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9FFC91C8A789C00F07576 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		7BC9FFF71C8A824E00F07576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +335,7 @@
 		7BC9FFB21C8A789C00F07576 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZT;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zt;
@@ -256,8 +405,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC9FFFD1C8A832E00F07576 /* ZTUserInfo.swift in Sources */,
+				7BC9000E1C8A868000F07576 /* ZTGuidePage.swift in Sources */,
+				7BC9000C1C8A866200F07576 /* ZTLoginPage.swift in Sources */,
+				7BC900071C8A843300F07576 /* ZTBaseViewController.swift in Sources */,
+				7BC900051C8A83E700F07576 /* ZTGetCars.swift in Sources */,
+				7BC900031C8A83C900F07576 /* ZTRegister.swift in Sources */,
+				7BC900011C8A83A300F07576 /* ZTLogin.swift in Sources */,
+				7BC9FFFB1C8A82EE00F07576 /* ZTBaseInfo.swift in Sources */,
+				7BC900101C8A86A100F07576 /* ZTRegisterPage.swift in Sources */,
 				7BC9FFC01C8A789C00F07576 /* ViewController.swift in Sources */,
+				7BC900121C8A872A00F07576 /* ZTBindPayPage.swift in Sources */,
+				7BC9000A1C8A864800F07576 /* ZTBasePage.swift in Sources */,
 				7BC9FFBE1C8A789C00F07576 /* AppDelegate.swift in Sources */,
+				7BC9FFFF1C8A836900F07576 /* ZTOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZTTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zt.ZTTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZTTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zt.ZTTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +645,7 @@
 				7BC9FFE41C8A789C00F07576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC9FFE51C8A789C00F07576 /* Build configuration list for PBXNativeTarget "ZTTaxiTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +654,7 @@
 				7BC9FFE71C8A789C00F07576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BC9FFE81C8A789C00F07576 /* Build configuration list for PBXNativeTarget "ZTTaxiUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +663,7 @@
 				7BC9FFEA1C8A789C00F07576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
