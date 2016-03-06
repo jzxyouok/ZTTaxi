@@ -97,13 +97,11 @@ class ZTGuidePage: ZTBasePage {
         location.startLocation()
     }
     
-//    @IBAction func doRegister()
-//    {
-//        let page = CreateAccountPage()
-//        let navPage = UINavigationController(rootViewController: page)
-//        
-//        self.presentViewController(navPage, animated: true, completion: nil)
-//    }
+    @IBAction func doRegister()
+    {
+        
+        showIndicator("验证", autoHide: false, afterDelay: false)
+    }
 
 
 
