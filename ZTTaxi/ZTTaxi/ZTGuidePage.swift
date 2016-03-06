@@ -17,7 +17,8 @@ class ZTGuidePage: ZTBasePage {
     
     var player:AVPlayer!
     var playerItem:AVPlayerItem!
-    
+    var location:ZTLocation!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -89,6 +90,20 @@ class ZTGuidePage: ZTBasePage {
         
         self.player.play()
     }
+    
+    @IBAction func doLogin()
+    {
+        location = ZTLocation()
+        location.startLocation()
+    }
+    
+//    @IBAction func doRegister()
+//    {
+//        let page = CreateAccountPage()
+//        let navPage = UINavigationController(rootViewController: page)
+//        
+//        self.presentViewController(navPage, animated: true, completion: nil)
+//    }
 
 
 

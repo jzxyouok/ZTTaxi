@@ -28,8 +28,11 @@
                                 <constraint firstAttribute="height" constant="34" id="LPH-dX-YEr"/>
                             </constraints>
                             <state key="normal" title="登录">
-                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </state>
+                            <connections>
+                                <action selector="doLogin" destination="-1" eventType="touchUpInside" id="35z-91-fwp"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzj-66-cqT">
                             <rect key="frame" x="172" y="509" width="140" height="34"/>
@@ -41,7 +44,13 @@
                             <state key="normal" title="注册">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="doRegister" destination="-1" eventType="touchUpInside" id="GMj-tH-pd9"/>
+                            </connections>
                         </button>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-067.png" translatesAutoresizingMaskIntoConstraints="NO" id="nlv-TY-sZY">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        </imageView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -54,9 +63,6 @@
                         <constraint firstAttribute="bottom" secondItem="kfB-J3-seI" secondAttribute="bottom" constant="25" id="w9d-Ct-C2Y"/>
                     </constraints>
                 </view>
-                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-067.png" translatesAutoresizingMaskIntoConstraints="NO" id="nlv-TY-sZY">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                </imageView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
