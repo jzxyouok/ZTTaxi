@@ -18,10 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
-        if isiPhone5(){
-            ZTLog("startup:iphone5")
-        }
-        
+//        if isiPhone5(){
+//            ZTLog("startup:iphone5")
+//        }
+//        
+//        
+//        ZTLog(ServerAddress())
         showGuidePage()
         return true
     }

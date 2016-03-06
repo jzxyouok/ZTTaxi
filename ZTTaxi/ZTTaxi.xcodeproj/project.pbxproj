@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0FED881C8C43CC00150622 /* ZTGuidePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FED871C8C43CC00150622 /* ZTGuidePage.xib */; };
+		7B0FED911C8CA0DA00150622 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FED901C8CA0DA00150622 /* welcome_video.mp4 */; };
 		7BC900011C8A83A300F07576 /* ZTLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900001C8A83A300F07576 /* ZTLogin.swift */; };
 		7BC900031C8A83C900F07576 /* ZTRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900021C8A83C900F07576 /* ZTRegister.swift */; };
 		7BC900051C8A83E700F07576 /* ZTGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900041C8A83E700F07576 /* ZTGetCars.swift */; };
@@ -223,7 +225,6 @@
 		7BC903571C8A960A00F07576 /* logo-067.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9028B1C8A960A00F07576 /* logo-067.png */; };
 		7BC903581C8A960A00F07576 /* logo-067@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9028C1C8A960A00F07576 /* logo-067@2x.png */; };
 		7BC903591C8A960A00F07576 /* logo-067@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9028D1C8A960A00F07576 /* logo-067@3x.png */; };
-		7BC9035B1C8A967D00F07576 /* GuidePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9035A1C8A967D00F07576 /* GuidePage.xib */; };
 		7BC9FFBE1C8A789C00F07576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFBD1C8A789C00F07576 /* AppDelegate.swift */; };
 		7BC9FFC01C8A789C00F07576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9FFBF1C8A789C00F07576 /* ViewController.swift */; };
 		7BC9FFC31C8A789C00F07576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9FFC11C8A789C00F07576 /* Main.storyboard */; };
@@ -254,6 +255,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B0FED871C8C43CC00150622 /* ZTGuidePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTGuidePage.xib; sourceTree = "<group>"; };
+		7B0FED901C8CA0DA00150622 /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome_video.mp4; sourceTree = "<group>"; };
 		7BC900001C8A83A300F07576 /* ZTLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTLogin.swift; sourceTree = "<group>"; };
 		7BC900021C8A83C900F07576 /* ZTRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTRegister.swift; sourceTree = "<group>"; };
 		7BC900041C8A83E700F07576 /* ZTGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTGetCars.swift; sourceTree = "<group>"; };
@@ -470,7 +473,6 @@
 		7BC9028B1C8A960A00F07576 /* logo-067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-067.png"; sourceTree = "<group>"; };
 		7BC9028C1C8A960A00F07576 /* logo-067@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-067@2x.png"; sourceTree = "<group>"; };
 		7BC9028D1C8A960A00F07576 /* logo-067@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-067@3x.png"; sourceTree = "<group>"; };
-		7BC9035A1C8A967D00F07576 /* GuidePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuidePage.xib; sourceTree = "<group>"; };
 		7BC9FFBA1C8A789C00F07576 /* ZTTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC9FFBD1C8A789C00F07576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BC9FFBF1C8A789C00F07576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -514,6 +516,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B0FED8F1C8CA0DA00150622 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7B0FED901C8CA0DA00150622 /* welcome_video.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		7BC900081C8A85F500F07576 /* Page */ = {
 			isa = PBXGroup;
 			children = (
@@ -866,6 +876,7 @@
 			isa = PBXGroup;
 			children = (
 				7BC9FFF61C8A81B200F07576 /* Config */,
+				7B0FED8F1C8CA0DA00150622 /* Video */,
 				7BC9FFF51C8A81A300F07576 /* images */,
 				7BC9FFF41C8A819D00F07576 /* Xib */,
 			);
@@ -877,7 +888,7 @@
 			children = (
 				7BC9FFC11C8A789C00F07576 /* Main.storyboard */,
 				7BC9FFC61C8A789C00F07576 /* LaunchScreen.storyboard */,
-				7BC9035A1C8A967D00F07576 /* GuidePage.xib */,
+				7B0FED871C8C43CC00150622 /* ZTGuidePage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -1068,12 +1079,12 @@
 				7BC902B51C8A960A00F07576 /* logo-013.png in Resources */,
 				7BC902E91C8A960A00F07576 /* logo-030@2x.png in Resources */,
 				7BC9033B1C8A960A00F07576 /* logo-057@3x.png in Resources */,
-				7BC9035B1C8A967D00F07576 /* GuidePage.xib in Resources */,
 				7BC902B11C8A960A00F07576 /* logo-011@3x.png in Resources */,
 				7BC9032E1C8A960A00F07576 /* logo-053@2x.png in Resources */,
 				7BC9030D1C8A960A00F07576 /* logo-042@2x.png in Resources */,
 				7BC9033A1C8A960A00F07576 /* logo-057@2x.png in Resources */,
 				7BC902C61C8A960A00F07576 /* logo-018@3x.png in Resources */,
+				7B0FED911C8CA0DA00150622 /* welcome_video.mp4 in Resources */,
 				7BC902C21C8A960A00F07576 /* logo-017@2x.png in Resources */,
 				7BC902D61C8A960A00F07576 /* logo-024.png in Resources */,
 				7BC903561C8A960A00F07576 /* logo-066@3x.png in Resources */,
@@ -1213,6 +1224,7 @@
 				7BC902EA1C8A960A00F07576 /* logo-030@3x.png in Resources */,
 				7BC902E21C8A960A00F07576 /* logo-028.png in Resources */,
 				7BC903261C8A960A00F07576 /* logo-050@3x.png in Resources */,
+				7B0FED881C8C43CC00150622 /* ZTGuidePage.xib in Resources */,
 				7BC9034D1C8A960A00F07576 /* logo-063@3x.png in Resources */,
 				7BC903311C8A960A00F07576 /* logo-054@2x.png in Resources */,
 				7BC903101C8A960A00F07576 /* logo-043@2x.png in Resources */,
@@ -1344,8 +1356,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1355,11 +1368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = ZTTaxi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "";
+				OTHER_SWIFT_FLAGS = "-D AppStore";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zt.ZTTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1419,8 +1433,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1430,10 +1445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ZTTaxi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zt.ZTTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1499,9 +1516,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1537,8 +1555,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1551,7 +1570,7 @@
 				INFOPLIST_FILE = ZTTaxi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zt.ZTTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1564,7 +1583,7 @@
 				INFOPLIST_FILE = ZTTaxi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.zt.ZTTaxi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

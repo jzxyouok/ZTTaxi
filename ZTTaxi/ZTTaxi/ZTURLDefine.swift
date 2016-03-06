@@ -7,9 +7,9 @@
 //
 
 import Foundation
-#if buildAppStore
-    
-#endif
+//#if buildAppStore
+//    
+//#endif
 
 func ServerAddress()->String
 {
@@ -22,4 +22,4 @@ func ServerAddress()->String
     return address
 }
 
-let YLTnURL = "http://202.101.25.178:8080/sim/gettn"
+//let YLTnURL = "http://202.101.25.178:8080/sim/gettn"
