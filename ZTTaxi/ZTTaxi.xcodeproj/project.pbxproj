@@ -13,6 +13,10 @@
 		7B0FED991C8CB7FA00150622 /* ZTActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FED961C8CB7FA00150622 /* ZTActivity.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7B0FED9A1C8CB7FA00150622 /* ZTActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FED981C8CB7FA00150622 /* ZTActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7B0FED9D1C8CBAF500150622 /* Loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FED9C1C8CBAF500150622 /* Loading@2x.png */; };
+		7B0FED9F1C8CBEA700150622 /* ZTCreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FED9E1C8CBEA700150622 /* ZTCreateAccountPage.swift */; };
+		7B0FEDA11C8CBEEA00150622 /* ZTUserInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FEDA01C8CBEEA00150622 /* ZTUserInfoPage.swift */; };
+		7B0FEDA31C8CBF0E00150622 /* ZTAddPayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0FEDA21C8CBF0E00150622 /* ZTAddPayPage.swift */; };
+		7B0FEDA51C8CC10600150622 /* ZTCreateAccountPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0FEDA41C8CC10600150622 /* ZTCreateAccountPage.xib */; };
 		7BC900011C8A83A300F07576 /* ZTLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900001C8A83A300F07576 /* ZTLogin.swift */; };
 		7BC900031C8A83C900F07576 /* ZTRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900021C8A83C900F07576 /* ZTRegister.swift */; };
 		7BC900051C8A83E700F07576 /* ZTGetCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC900041C8A83E700F07576 /* ZTGetCars.swift */; };
@@ -268,6 +272,10 @@
 		7B0FED971C8CB7FA00150622 /* ZTActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTActivityIndicator.h; sourceTree = "<group>"; };
 		7B0FED981C8CB7FA00150622 /* ZTActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTActivityIndicator.m; sourceTree = "<group>"; };
 		7B0FED9C1C8CBAF500150622 /* Loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loading@2x.png"; sourceTree = "<group>"; };
+		7B0FED9E1C8CBEA700150622 /* ZTCreateAccountPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTCreateAccountPage.swift; sourceTree = "<group>"; };
+		7B0FEDA01C8CBEEA00150622 /* ZTUserInfoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTUserInfoPage.swift; sourceTree = "<group>"; };
+		7B0FEDA21C8CBF0E00150622 /* ZTAddPayPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTAddPayPage.swift; sourceTree = "<group>"; };
+		7B0FEDA41C8CC10600150622 /* ZTCreateAccountPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZTCreateAccountPage.xib; sourceTree = "<group>"; };
 		7BC900001C8A83A300F07576 /* ZTLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTLogin.swift; sourceTree = "<group>"; };
 		7BC900021C8A83C900F07576 /* ZTRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTRegister.swift; sourceTree = "<group>"; };
 		7BC900041C8A83E700F07576 /* ZTGetCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTGetCars.swift; sourceTree = "<group>"; };
@@ -549,6 +557,9 @@
 				7BC900091C8A864800F07576 /* ZTBasePage.swift */,
 				7BC9000B1C8A866200F07576 /* ZTLoginPage.swift */,
 				7BC9000F1C8A86A100F07576 /* ZTRegisterPage.swift */,
+				7B0FED9E1C8CBEA700150622 /* ZTCreateAccountPage.swift */,
+				7B0FEDA01C8CBEEA00150622 /* ZTUserInfoPage.swift */,
+				7B0FEDA21C8CBF0E00150622 /* ZTAddPayPage.swift */,
 				7BC9000D1C8A868000F07576 /* ZTGuidePage.swift */,
 				7BC900111C8A872A00F07576 /* ZTBindPayPage.swift */,
 			);
@@ -914,6 +925,7 @@
 				7BC9FFC11C8A789C00F07576 /* Main.storyboard */,
 				7BC9FFC61C8A789C00F07576 /* LaunchScreen.storyboard */,
 				7B0FED871C8C43CC00150622 /* ZTGuidePage.xib */,
+				7B0FEDA41C8CC10600150622 /* ZTCreateAccountPage.xib */,
 			);
 			name = Xib;
 			sourceTree = "<group>";
@@ -1069,6 +1081,7 @@
 				7BC903061C8A960A00F07576 /* logo-040.png in Resources */,
 				7BC903181C8A960A00F07576 /* logo-046.png in Resources */,
 				7BC903071C8A960A00F07576 /* logo-040@2x.png in Resources */,
+				7B0FEDA51C8CC10600150622 /* ZTCreateAccountPage.xib in Resources */,
 				7BC902CC1C8A960A00F07576 /* logo-020@3x.png in Resources */,
 				7BC903591C8A960A00F07576 /* logo-067@3x.png in Resources */,
 				7BC902E61C8A960A00F07576 /* logo-029@2x.png in Resources */,
@@ -1302,6 +1315,9 @@
 				7BC9000A1C8A864800F07576 /* ZTBasePage.swift in Sources */,
 				7BC9FFBE1C8A789C00F07576 /* AppDelegate.swift in Sources */,
 				7BC9FFFF1C8A836900F07576 /* ZTOperation.swift in Sources */,
+				7B0FED9F1C8CBEA700150622 /* ZTCreateAccountPage.swift in Sources */,
+				7B0FEDA11C8CBEEA00150622 /* ZTUserInfoPage.swift in Sources */,
+				7B0FEDA31C8CBF0E00150622 /* ZTAddPayPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

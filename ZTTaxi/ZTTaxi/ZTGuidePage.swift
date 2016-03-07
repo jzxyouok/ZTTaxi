@@ -12,7 +12,7 @@ import AVFoundation
 class ZTGuidePage: ZTBasePage {
 
     @IBOutlet var backImageView: UIImageView?
-    @IBOutlet var backView: UIView?
+   
 
     
     var player:AVPlayer!
@@ -99,8 +99,11 @@ class ZTGuidePage: ZTBasePage {
     
     @IBAction func doRegister()
     {
+        let page = ZTCreateAccountPage()
+        let navPage = UINavigationController(rootViewController: page)
         
-        showIndicator("验证", autoHide: false, afterDelay: false)
+        self.presentViewController(navPage, animated: true, completion: nil)
+//        showIndicator("验证", autoHide: false, afterDelay: false)
     }
 
 
